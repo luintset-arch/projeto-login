@@ -7,7 +7,7 @@
 */
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -50,7 +50,16 @@ section#login > div#imagem {
     height: 200px;
 }
 
-selection#login > div#formulario {
+section#login > div#formulario {
     display: block;
     padding: 10px;
+   
 }
+
+div#formulario > h1 {
+    font-size: 2em;
+}
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
